@@ -21,7 +21,8 @@ class ExceptionManagementApplicationTests {
 	public void beforeEach() {
 		System.out.println("BeforeEach yani test öncesi çalıştı");
 	}
-	
+
+	// Burada test anotasyonu
 	@Test
 	public void testFindEmployeeById() {
 		DtoEmployee employeeById = employeeService.findEmployeeById(4L); // Büyük L ile Long verdik.
